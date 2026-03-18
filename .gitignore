@@ -1,0 +1,12 @@
+# python artifacts
+__pycache__
+*.egg-info
+
+# build and test artifacts
+.nox
+dist
+
+# move and pruning moves
+moves.json
+# legacy, code no longer generates this
+moves.pkl
