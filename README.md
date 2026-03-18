@@ -1,4 +1,4 @@
-# cube-solver
+# Rubix-cube-solver
 
 A pure Python implementation of Herbert Kociemba's two-phase algorithm for solving the Rubik's Cube
 
@@ -7,7 +7,7 @@ A pure Python implementation of Herbert Kociemba's two-phase algorithm for solvi
 Requires Python 3. Install with
 
 ```sh
-pip install git+https://github.com/tcbegley/cube-solver.git
+pip install git+https://github.com/Coding-With-SouRav/My-Library.git
 ```
 
 Note that depending on how your system is configured, you may need to replace `pip` with `pip3` in the above command to install for Python 3.
@@ -18,8 +18,15 @@ To solve a cube, just import the `solve` method and pass a cube string.
 
 ```python
 from rxsol import solve
+cube = "BUUBUULDDLBBLRRBRRUFFUFFURRBDDBDURDULLFLLFFRRLLDFBDFBD" # 3x3 cube color patterns. You can chnage it manually
 
-solve("<cube_string>")
+print(solve(cube))
+
+
+
+
+output-
+L U D' B2 L2 U' F2 U' D
 ```
 
 Where the cube string is a 54 character string, consisting of the characters U, R, F, D, L, B (corresponding to the Upper, Right, Front, Down, Left and Back faces). Each character corresponds to one of the 54 stickers on the cube:
