@@ -1,4 +1,4 @@
-# Rubix-cube-solver
+# Rubic-cube-solver
 
 A pure Python implementation of Herbert Kociemba's two-phase algorithm for solving the Rubik's Cube
 
