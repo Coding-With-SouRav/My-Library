@@ -6,7 +6,7 @@ build-backend = "poetry.masonry.api"
 name = "rxsol"
 version = "0.1.0"
 description = "Rubik's cube solver implementing Kociemba's two-phase algorithm."
-authors = [ "tcbegley <tomcbegley@gmail.com>",]
+authors = [ "SouRav <souravbhattacharya8159@gmail.com>",]
 license = "MIT"
 classifiers = [ "Development Status :: 3 - Alpha", "License :: OSI Approved :: MIT License",]
 
