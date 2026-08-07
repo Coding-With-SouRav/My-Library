@@ -64,7 +64,7 @@ If you want to keep searching for better solutions, use the `solve_best` or
 solution is found and continues searching for a better solution. All solutions
 found are returned in a list at the end. `solve_best_generator` creates a
 generator that yields solutions as they are found.
-
+ 
 ```python
 from rxsol import solve_best, solve_best_generator
 
